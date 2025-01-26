@@ -1,3 +1,5 @@
+--// loadstring:   loadstring(game:HttpGet("https://pastebin.com/raw/FWwdST5Y"))()
+
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local isR6 = character:FindFirstChild("Torso") ~= nil
